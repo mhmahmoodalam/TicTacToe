@@ -193,7 +193,7 @@ btn_ghost:active{
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 2.5rem;;
   font-weight: bold;
 }
 
@@ -202,4 +202,18 @@ btn_ghost:active{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+.popup-container{
+    display:flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+}
+.popup-badge {
+    font-size: 8rem;
+    color: green;
+}
+.popup-text {
+    font-size: 2rem;
+    font-weight: 400;
 }
